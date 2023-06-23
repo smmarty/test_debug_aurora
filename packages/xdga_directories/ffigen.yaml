@@ -1,0 +1,20 @@
+# Copyright (c) 2023. Open Mobile Platform LLC.
+# License: Proprietary.
+
+name: XdgaDirectoriesBindings
+llvm-path:
+  - '/usr/lib/llvm-14/lib/libclang.so' # Ubuntu 22.04
+  - '/usr/lib/llvm-15/lib/libclang.so' # Ubuntu 23.04
+description: |
+  Bindings for `src/xdga_directories.h`.
+
+  Regenerate bindings with `flutter pub run ffigen --config ffigen.yaml`.
+output: 'lib/xdga_directories_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/xdga_directories.h'
+  include-directives:
+    - 'src/xdga_directories.h'
+comments:
+  style: any
+  length: full
