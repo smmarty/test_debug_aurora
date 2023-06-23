@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE node PUBLIC
+  "-//freedesktop//DTD D-Bus Object Introspection 1.0//EN"
+  "http://standards.freedesktop.org/dbus/1.0/introspect.dtd">
+<node name="/com/nokia/mce/request">
+  <interface name="com.nokia.mce.request">
+    <method name="req_display_blanking_pause">
+    </method>
+  </interface>
+</node>
