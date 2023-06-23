@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE node PUBLIC
+  "-//freedesktop//DTD D-Bus Object Introspection 1.0//EN"
+  "http://standards.freedesktop.org/dbus/1.0/introspect.dtd">
+<node name="/com/nokia/mce/request">
+  <interface name="com.nokia.mce.request">
+    <method name="get_psm_state">
+      <arg direction="out" name="power_saving_mode_active" type="b"/>
+    </method>
+    <method name="get_battery_level">
+      <arg direction="out" name="battery_level" type="i"/>
+    </method>
+    <method name="get_charger_state">
+      <arg direction="out" name="charger_state" type="s"/>
+    </method>
+  </interface>
+</node>
