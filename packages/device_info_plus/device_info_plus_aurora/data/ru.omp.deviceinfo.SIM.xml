@@ -1,0 +1,21 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="ru.omp.deviceinfo.SIM">
+    <signal name="simCardsEnabledChanged">
+      <arg name="updatedSimCards" type="aa{sv}" direction="out"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QVariantMapList"/>
+    </signal>
+    <signal name="preferredDataTransferSimChanged">
+      <arg name="updatedSimCards" type="aa{sv}" direction="out"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QVariantMapList"/>
+    </signal>
+    <signal name="preferredVoiceCallSimChanged">
+      <arg name="updatedSimCards" type="aa{sv}" direction="out"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QVariantMapList"/>
+    </signal>
+    <method name="getSimCardsInfo">
+      <arg type="aa{sv}" direction="out"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QVariantMapList"/>
+    </method>
+  </interface>
+</node>
