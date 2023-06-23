@@ -1,17 +1,66 @@
 # Flutter Packages Aurora OS
 
 This repo is a companion repo to the main flutter repo. 
-It contains the source code for Aurora Flutter's packages (i.e., packages developed by the Aurora team). 
+It contains the source code for Aurora Flutter's packages (i.e., packages developed and check by the Aurora team).
 
-# Packages:
+## Package done
 
-* [battery_plus](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/battery_plus/battery_plus_aurora) - The Aurora implementation of [battery_plus](https://pub.dev/packages/battery_plus).
-* [device_info_plus](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/device_info_plus/device_info_plus_aurora) - The Aurora implementation of [device_info_plus](https://pub.dev/packages/device_info_plus).
-* [flutter_local_notifications](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/flutter_local_notifications/flutter_local_notifications_aurora) - The Aurora implementation of [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications).
-* [flutter_secure_storage](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/flutter_secure_storage/flutter_secure_storage_aurora) - The Aurora implementation of [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage).
-* [package_info_plus](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/package_info_plus/package_info_plus_aurora) - The Aurora implementation of [package_info_plus](https://pub.dev/packages/package_info_plus).
-* [path_provider](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/path_provider/path_provider_aurora) - The Aurora implementation of [path_provider](https://pub.dev/packages/path_provider).
-* [shared_preferences](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/shared_preferences/shared_preferences_aurora) - The Aurora implementation of [shared_preferences](https://pub.dev/packages/shared_preferences).
-* [sqflite](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/sqflite/sqflite_aurora) - The Aurora OS implementation of [sqflite](https://pub.dev/packages/sqflite).
-* [wakelock](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/wakelock/wakelock_aurora) - The Aurora OS implementation of [wakelock](https://pub.dev/packages/wakelock).
-* [xdga_directories](https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/dev/packages/xdga_directories) - A Dart package for reading directory path on Aurora OS.
+Packages made or for review
+
+| Package                                                                             | Version  | OS Version | State   | Comment                                                             |
+|-------------------------------------------------------------------------------------|----------|------------|---------|---------------------------------------------------------------------|
+| [battery_plus](https://pub.dev/packages/battery_plus)                               | 4.0.1    | 4.0.2      | Review  | -                                                                   |
+| [device_info_plus](https://pub.dev/packages/device_info_plus)                       | 9.0.2    | 4.0.2      | Review  | -                                                                   |
+| [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) | 14.1.1   | 4.0.2      | Done    | -                                                                   |
+| [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)           | 8.0.0    | 4.0.2      | Review  | Ключь нужно генерировать сейчас самому, например через пин от юзера |
+| [package_info_plus](https://pub.dev/packages/package_info_plus)                     | 4.0.2    | 4.0.2      | Done    | Достать `version` & `build_number` не удалось                       |
+| [path_provider](https://pub.dev/packages/path_provider)                             | 2.0.15   | 4.0.2      | Review  | -                                                                   |
+| [shared_preferences](https://pub.dev/packages/shared_preferences)                   | 2.1.2    | 4.0.2      | Review  | -                                                                   |
+| [sqflite](https://pub.dev/packages/sqflite)                                         | 2.2.6    | 4.0.2      | Review  | -                                                                   |
+| [wakelock](https://pub.dev/packages/wakelock)                                       | 0.6.2    | 4.0.2      | Review  | -                                                                   |
+| xdga_directories                                                                    | -        | 4.0.2      | Review  | Аналог [xdg_directories](https://pub.dev/packages/xdg_directories)  |
+
+## Package verified
+
+Verified packages on Aurora OS
+
+| Package                                                                 | Version  | OS Version  | State  | Comment                            |
+|-------------------------------------------------------------------------|----------|-------------|--------|------------------------------------|
+| [flutter_cache_manager](https://pub.dev/packages/flutter_cache_manager) | 3.3.0    | 4.0.2       | Done   | Depends on `path_provider`         |
+| [cached_network_image](https://pub.dev/packages/cached_network_image)   | 3.2.3    | 4.0.2       | Done   | Depends on `flutter_cache_manager` |
+
+## Package in progress
+
+Started development and its status
+
+| Package                                                                  | Version  | OS Version | State    | Comment                                                                           |
+|--------------------------------------------------------------------------|----------|------------|----------|-----------------------------------------------------------------------------------|
+| [flutter_reactive_ble](https://pub.dev/packages/flutter_reactive_ble)    | 5.0.3    | 4.0.2      | Blocked  | Не все методы bluez dbus доступны для приложения, вопрос изучается                |
+| [url_launcher](https://pub.dev/packages/url_launcher)                    | 6.1.11   | 5.0.0      | Waiting  | [OpenURI](https://confluence.omprussia.ru/pages/viewpage.action?pageId=163055648) |
+| [sensors_plus](https://pub.dev/packages/sensors_plus)                    | 3.0.2    | 4.0.2      | Blocked  | Нет интерфейса для использования Sensors API без Qt                               |
+
+
+## Package waiting
+
+Packets waiting in line
+
+| Package                                                               | State   | Comment |
+|-----------------------------------------------------------------------|---------|---------|
+| [camera](https://pub.dev/packages/camera)                             | Waiting | -       |
+| [video_player](https://pub.dev/packages/video_player)                 | Waiting | -       |
+| [image_picker](https://pub.dev/packages/image_picker)                 | Waiting | -       |
+| [geolocator](https://pub.dev/packages/geolocator)                     | Waiting | -       |
+| [permission_handler](https://pub.dev/packages/permission_handler)     | Waiting | -       |
+| [file_picker](https://pub.dev/packages/file_picker)                   | Waiting | -       |
+| [webview_flutter](https://pub.dev/packages/webview_flutter)           | Waiting | -       |
+| [local_auth](https://pub.dev/packages/local_auth)                     | Waiting | -       |
+| [flutter_inappwebview](https://pub.dev/packages/flutter_inappwebview) | Waiting | -       |
+| [qr_code_scanner](https://pub.dev/packages/qr_code_scanner)           | Waiting | -       |
+| [connectivity_plus](https://pub.dev/packages/connectivity_plus)       | Waiting | -       |
+| [share_plus](https://pub.dev/packages/share_plus)                     | Waiting | -       |
+| [app_settings](https://pub.dev/packages/app_settings)                 | Waiting | -       |
+| [maps_launcher](https://pub.dev/packages/maps_launcher)               | Waiting | -       |
+| [nfc_manager](https://pub.dev/packages/nfc_manager)                   | Waiting | -       |
+| [push](https://pub.dev/packages/push)                                 | Waiting | -       |
+| [audioplayers](https://pub.dev/packages/audioplayers)                 | Waiting | -       |
+| [network_info_plus](https://pub.dev/packages/network_info_plus)       | Waiting | -       |
