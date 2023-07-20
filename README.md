@@ -5,29 +5,42 @@ It contains the source code for Aurora Flutter's packages (i.e., packages develo
 
 ## Package done
 
-Packages made or for review
+Package verified
 
-| Package                                                                             | Version  | OS Version | State   | Comment                                                             |
-|-------------------------------------------------------------------------------------|----------|------------|---------|---------------------------------------------------------------------|
-| [battery_plus](https://pub.dev/packages/battery_plus)                               | 4.0.1    | 4.0.2      | Review  | -                                                                   |
-| [device_info_plus](https://pub.dev/packages/device_info_plus)                       | 9.0.2    | 4.0.2      | Review  | -                                                                   |
-| [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) | 14.1.1   | 4.0.2      | Done    | -                                                                   |
-| [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)           | 8.0.0    | 4.0.2      | Review  | Ключь нужно генерировать сейчас самому, например через пин от юзера |
-| [package_info_plus](https://pub.dev/packages/package_info_plus)                     | 4.0.2    | 4.0.2      | Done    | Достать `version` & `build_number` не удалось                       |
-| [path_provider](https://pub.dev/packages/path_provider)                             | 2.0.15   | 4.0.2      | Review  | -                                                                   |
-| [shared_preferences](https://pub.dev/packages/shared_preferences)                   | 2.1.2    | 4.0.2      | Review  | -                                                                   |
-| [sqflite](https://pub.dev/packages/sqflite)                                         | 2.2.6    | 4.0.2      | Review  | -                                                                   |
-| [wakelock](https://pub.dev/packages/wakelock)                                       | 0.6.2    | 4.0.2      | Review  | -                                                                   |
-| xdga_directories                                                                    | -        | 4.0.2      | Review  | Аналог [xdg_directories](https://pub.dev/packages/xdg_directories)  |
-
-## Package verified
-
-Verified packages on Aurora OS
-
-| Package                                                                 | Version  | OS Version  | State  | Comment                            |
-|-------------------------------------------------------------------------|----------|-------------|--------|------------------------------------|
-| [flutter_cache_manager](https://pub.dev/packages/flutter_cache_manager) | 3.3.0    | 4.0.2       | Done   | Depends on `path_provider`         |
-| [cached_network_image](https://pub.dev/packages/cached_network_image)   | 3.2.3    | 4.0.2       | Done   | Depends on `flutter_cache_manager` |
+| Package                                                                             | Version   | OS Version | Comment                                                             |
+|-------------------------------------------------------------------------------------|-----------|------------|---------------------------------------------------------------------|
+| [flutter_keyboard_visibility](https://pub.dev/packages/flutter_keyboard_visibility) | 5.4.1     | 4.0.2      | Дополнительная фича с получением высоты клавиатуры                  |
+| [battery_plus](https://pub.dev/packages/battery_plus)                               | 4.0.1     | 4.0.2      | -                                                                   |
+| [device_info_plus](https://pub.dev/packages/device_info_plus)                       | 8.2.2     | 4.0.2      | -                                                                   |
+| [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) | 14.1.1    | 4.0.2      | -                                                                   |
+| [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)           | 8.0.0     | 4.0.2      | Ключь нужно генерировать сейчас самому, например через пин от юзера |
+| [package_info_plus](https://pub.dev/packages/package_info_plus)                     | 3.1.2     | 4.0.2      | Достать `version` & `build_number` не удалось                       |
+| [path_provider](https://pub.dev/packages/path_provider)                             | 2.0.15    | 4.0.2      | -                                                                   |
+| [shared_preferences](https://pub.dev/packages/shared_preferences)                   | 2.1.2     | 4.0.2      | -                                                                   |
+| [sqflite](https://pub.dev/packages/sqflite)                                         | 2.2.6     | 4.0.2      | -                                                                   |
+| [wakelock](https://pub.dev/packages/wakelock)                                       | 0.6.2     | 4.0.2      | -                                                                   |
+| xdga_directories                                                                    | 0.0.1     | 4.0.2      | Аналог [xdg_directories](https://pub.dev/packages/xdg_directories)  |
+| [flutter_cache_manager](https://pub.dev/packages/flutter_cache_manager)             | 3.3.0     | 4.0.2      | Depends on `path_provider`                                          |
+| [cached_network_image](https://pub.dev/packages/cached_network_image)               | 3.2.3     | 4.0.2      | Depends on `flutter_cache_manager`                                  |
+| [crypto](https://pub.dev/packages/crypto)                                           | 3.0.2     | 4.0.2      | -                                                                   |
+| [cupertino_icons](https://pub.dev/packages/cupertino_icons)                         | 1.0.5     | 4.0.2      | -                                                                   |
+| [get_it](https://pub.dev/packages/get_it)                                           | 7.6.0     | 4.0.2      | -                                                                   |
+| [google_fonts](https://pub.dev/packages/google_fonts)                               | 4.0.4     | 4.0.2      | -                                                                   |
+| [intl](https://pub.dev/packages/intl)                                               | 0.17.0    | 4.0.2      | -                                                                   |
+| [photo_view](https://pub.dev/packages/photo_view)                                   | 0.14.0    | 4.0.2      | -                                                                   |
+| [scoped_model](https://pub.dev/packages/scoped_model)                               | 2.0.0     | 4.0.2      | -                                                                   |
+| [dartz](https://pub.dev/packages/dartz)                                             | 0.10.1    | 4.0.2      | -                                                                   |
+| [freezed](https://pub.dev/packages/freezed)                                         | 2.3.3     | 4.0.2      | -                                                                   |
+| [equatable](https://pub.dev/packages/equatable)                                     | 2.0.5     | 4.0.2      | -                                                                   |
+| [flutter_markdown](https://pub.dev/packages/flutter_markdown)                       | 0.6.15    | 4.0.2      | -                                                                   |
+| [build_runner](https://pub.dev/packages/build_runner)                               | 2.3.3     | 4.0.2      | -                                                                   |
+| [freezed_annotation](https://pub.dev/packages/freezed_annotation)                   | 2.2.0     | 4.0.2      | -                                                                   |
+| [json_annotation](https://pub.dev/packages/json_annotation)                         | 4.8.0     | 4.0.2      | -                                                                   |
+| [json_serializable](https://pub.dev/packages/json_serializable)                     | 6.6.1     | 4.0.2      | -                                                                   |
+| [provider](https://pub.dev/packages/provider)                                       | 6.0.5     | 4.0.2      | -                                                                   |
+| [qr_flutter](https://pub.dev/packages/qr_flutter)                                   | 4.0.0     | 4.0.2      | -                                                                   |
+| [rxdart](https://pub.dev/packages/rxdart)                                           | 0.27.7    | 4.0.2      | -                                                                   |
+| [translator](https://pub.dev/packages/translator)                                   | 0.1.7     | 4.0.2      | -                                                                   |
 
 ## Package in progress
 
@@ -38,7 +51,6 @@ Started development and its status
 | [flutter_reactive_ble](https://pub.dev/packages/flutter_reactive_ble)    | 5.0.3    | 4.0.2      | Blocked  | Не все методы bluez dbus доступны для приложения, вопрос изучается                |
 | [url_launcher](https://pub.dev/packages/url_launcher)                    | 6.1.11   | 5.0.0      | Waiting  | [OpenURI](https://confluence.omprussia.ru/pages/viewpage.action?pageId=163055648) |
 | [sensors_plus](https://pub.dev/packages/sensors_plus)                    | 3.0.2    | 4.0.2      | Blocked  | Нет интерфейса для использования Sensors API без Qt                               |
-
 
 ## Package waiting
 

@@ -5,7 +5,6 @@
 import 'dart:async';
 
 import 'package:dbus/dbus.dart';
-import 'package:flutter/foundation.dart';
 import 'package:wakelock_platform_interface/wakelock_platform_interface.dart';
 import 'com_nokia_mce_request.dart';
 
@@ -14,9 +13,7 @@ class WakelockAurora extends WakelockPlatformInterface {
   Timer? _timer;
 
   static void registerWith() {
-    if (TargetPlatform.aurora == defaultTargetPlatform) {
-      WakelockPlatformInterface.instance = WakelockAurora();
-    }
+    WakelockPlatformInterface.instance = WakelockAurora();
   }
 
   @override

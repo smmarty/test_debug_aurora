@@ -1,4 +1,0 @@
-# Copyright (c) 2023. Open Mobile Platform LLC.
-# License: Proprietary.
-
-include: package:flutter_lints/flutter.yaml

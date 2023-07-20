@@ -4,7 +4,7 @@
  */
 #include <package_info_plus_aurora/package_info_plus_aurora_plugin.h>
 #include <flutter/method-channel.h>
-#include <flutter/application.h>
+#include <flutter/platform-methods.h>
 #include <sys/utsname.h>
 
 void PackageInfoPlusAuroraPlugin::RegisterWithRegistrar(PluginRegistrar &registrar)
@@ -33,12 +33,12 @@ void PackageInfoPlusAuroraPlugin::onMethodCall(const MethodCall &call)
 
 void PackageInfoPlusAuroraPlugin::onGetApplicationOrg(const MethodCall &call)
 {
-    call.SendSuccessResponse(Application::GetID().orgname);
+    call.SendSuccessResponse(PlatformMethods::GetOrgname());
 }
 
 void PackageInfoPlusAuroraPlugin::onGetApplicationName(const MethodCall &call)
 {
-    call.SendSuccessResponse(Application::GetID().appname);
+    call.SendSuccessResponse(PlatformMethods::GetAppname());
 }
 
 void PackageInfoPlusAuroraPlugin::unimplemented(const MethodCall &call)

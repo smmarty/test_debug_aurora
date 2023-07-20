@@ -8,17 +8,12 @@ import 'package:device_info_plus_aurora/ru_omp_deviceinfo_features.dart';
 import 'package:device_info_plus_aurora/ru_omp_deviceinfo_sim.dart';
 import 'package:device_info_plus_aurora/ru_omp_deviceinfo_storages.dart';
 import 'package:device_info_plus_platform_interface/device_info_plus_platform_interface.dart';
-import 'package:flutter/foundation.dart';
 import 'aurora_device_info.dart';
 
 class DeviceInfoPlusAurora extends DeviceInfoPlatform {
   /// Register this dart class as the platform implementation for aurora
   static void registerWith() {
-    if (TargetPlatform.aurora == defaultTargetPlatform) {
-      DeviceInfoPlatform.instance = DeviceInfoPlusAurora();
-    } else {
-      DeviceInfoPlatform.instance = DeviceInfoPlusLinuxPlugin();
-    }
+    DeviceInfoPlatform.instance = DeviceInfoPlusAurora();
   }
 
   @override

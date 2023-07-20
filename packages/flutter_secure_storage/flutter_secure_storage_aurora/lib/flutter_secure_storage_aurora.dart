@@ -3,7 +3,6 @@
  * License: Proprietary.
  */
 import 'package:flutter_secure_storage_platform_interface/flutter_secure_storage_platform_interface.dart';
-import 'package:flutter/foundation.dart';
 import 'package:path_provider_aurora/path_provider_aurora.dart';
 import 'null_secret_exception.dart';
 import 'flutter_secure_storage_aurora_api.dart';
@@ -23,11 +22,8 @@ class FlutterSecureStorageAurora extends FlutterSecureStoragePlatform {
     );
   }
 
-  static void registerWith() async {
-    if (TargetPlatform.aurora == defaultTargetPlatform) {
-      PathProviderAurora.registerWith();
-      FlutterSecureStoragePlatform.instance = FlutterSecureStorageAurora();
-    }
+  static void registerWith() {
+    FlutterSecureStoragePlatform.instance = FlutterSecureStorageAurora();
   }
 
   static FlutterSecureStorageAuroraApi _getAPI() {

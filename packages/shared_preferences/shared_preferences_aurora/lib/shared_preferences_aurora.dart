@@ -3,18 +3,13 @@
  * License: Proprietary.
  */
 import 'package:flutter/services.dart';
-import 'package:path_provider_aurora/path_provider_aurora.dart';
 import 'package:shared_preferences_aurora/shared_preferences_aurora_api.dart';
 import 'package:shared_preferences_platform_interface/shared_preferences_platform_interface.dart';
-import 'package:flutter/foundation.dart';
 
 class SharedPreferencesAurora extends SharedPreferencesStorePlatform {
   /// Registers this class as the default instance of [SharedPreferencesStorePlatform].
   static void registerWith() {
-    if (TargetPlatform.aurora == defaultTargetPlatform) {
-      PathProviderAurora.registerWith();
-      SharedPreferencesStorePlatform.instance = SharedPreferencesAurora();
-    }
+    SharedPreferencesStorePlatform.instance = SharedPreferencesAurora();
   }
 
   static const String _defaultPrefix = 'flutter.';

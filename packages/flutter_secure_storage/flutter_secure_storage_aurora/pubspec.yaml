@@ -7,7 +7,7 @@ version: 0.0.1
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
-  flutter: ">=2.5.0"
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
@@ -16,11 +16,13 @@ dependencies:
   plugin_platform_interface: ^2.0.2
   flutter_secure_storage_platform_interface: ^1.0.1
   path: ^1.8.2
-  path_provider: ^2.0.14
+  ## https://pub.dev/packages/path_provider
+  path_provider: ^2.0.15
+  ## https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/master/packages/path_provider/path_provider_aurora
   path_provider_aurora:
     git:
       url: git@os-git.omprussia.ru:non-oss/flutter/flutter-plugins.git
-      ref: dev
+      ref: flutter_example_packages
       path: packages/path_provider/path_provider_aurora
 
 dev_dependencies:

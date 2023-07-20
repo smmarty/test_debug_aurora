@@ -31,11 +31,11 @@ final Directory? downloadsDir = await getDownloadsDirectory();
 
 ## Supported APIs
 
-- [x] `getTemporaryDirectory` - Returns a directory location where user-specific non-essential (cached) data should be written
-- [ ] `getApplicationSupportDirectory`
+- [x] `getTemporaryDirectory` - Directory location where user-specific non-essential (cached) data should be written
+- [x] `getApplicationSupportDirectory` - Directory where the application may place application support files.
 - [ ] `getLibraryDirectory`
-- [x] `getApplicationDocumentsDirectory` - Returns the directory containing user document files.
+- [x] `getApplicationDocumentsDirectory` - Directory containing user document files.
 - [ ] `getExternalStorageDirectory`
 - [ ] `getExternalCacheDirectories`
 - [x] `getExternalStorageDirectories` - There is no concept of External in Aurora OS, but this interface allows you to get the pictures/music/movies directory
-- [x] `getDownloadsDirectory`- Returns a directory for user's downloaded files.
+- [x] `getDownloadsDirectory`- Directory for user's downloaded files.

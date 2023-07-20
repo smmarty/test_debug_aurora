@@ -6,7 +6,6 @@ import 'package:package_info_plus_aurora/package_info_plus_aurora.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:xdga_directories/xdga_directories.dart' as xdga_directories;
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:flutter/foundation.dart';
 import 'package:path/path.dart' as p;
 
 /// The aurora implementation of [PathProviderPlatform]
@@ -15,21 +14,22 @@ import 'package:path/path.dart' as p;
 class PathProviderAurora extends PathProviderPlatform {
   /// Registers this class as the default instance of [PathProviderPlatform]
   static void registerWith() {
-    if (TargetPlatform.aurora == defaultTargetPlatform) {
-      PackageInfoPlusAurora.registerWith();
-      PathProviderPlatform.instance = PathProviderAurora();
-    }
+    PathProviderPlatform.instance = PathProviderAurora();
   }
 
   /// Path to a directory where the application may place application support files.
   @override
   Future<String?> getApplicationSupportPath() async {
     PackageInfo info = await PackageInfo.fromPlatform();
+
+    final appName = info.packageName.split('.').last;
+    final orgName = info.packageName.replaceAll('.$appName', '');
+
     // QStandardPaths::AppDataLocation
     return p.join(
       xdga_directories.getAppDataLocation(),
-      info.packageName,
-      info.appName,
+      orgName,
+      appName,
     );
   }
 
@@ -38,11 +38,15 @@ class PathProviderAurora extends PathProviderPlatform {
   @override
   Future<String> getTemporaryPath() async {
     PackageInfo info = await PackageInfo.fromPlatform();
+
+    final appName = info.packageName.split('.').last;
+    final orgName = info.packageName.replaceAll('.$appName', '');
+
     // QStandardPaths::CacheLocation
     return p.join(
       xdga_directories.getCacheLocation(),
-      info.packageName,
-      info.appName,
+      orgName,
+      appName,
     );
   }
 

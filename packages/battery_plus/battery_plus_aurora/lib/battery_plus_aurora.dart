@@ -6,16 +6,13 @@ import 'package:battery_plus_aurora/com_nokia_mce_request.dart';
 import 'package:battery_plus_aurora/com_nokia_mce_signal.dart';
 import 'package:dbus/dbus.dart';
 import 'package:battery_plus_platform_interface/battery_plus_platform_interface.dart';
-import 'package:flutter/foundation.dart';
 import 'dart:async' show Stream;
 import 'package:async/async.dart' show StreamGroup;
 
 class BatteryPlusAurora extends BatteryPlatform {
   /// Register this dart class as the platform implementation for aurora
   static void registerWith() {
-    if (TargetPlatform.aurora == defaultTargetPlatform) {
-      BatteryPlatform.instance = BatteryPlusAurora();
-    }
+    BatteryPlatform.instance = BatteryPlusAurora();
   }
 
   /// Returns the current battery level in percent.

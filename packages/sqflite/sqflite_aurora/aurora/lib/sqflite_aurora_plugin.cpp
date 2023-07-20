@@ -2,7 +2,7 @@
  * Copyright (c) 2023. Open Mobile Platform LLC.
  * License: Proprietary.
  */
-#include <flutter/application.h>
+#include <flutter/platform-methods.h>
 #include <flutter/logger.h>
 
 #include <sqflite_aurora/constants.h>
@@ -260,7 +260,8 @@ void SqfliteAuroraPlugin::onGetDatabasesPathCall(const MethodCall &call)
         return;
     }
 
-    const auto [orgname, appname] = Application::GetID();
+    const auto orgname = PlatformMethods::GetOrgname();
+    const auto appname = PlatformMethods::GetAppname();
     const auto directory = std::filesystem::path(home) / ".local/share" / orgname / appname;
 
     sendSuccess(call, directory.generic_string());

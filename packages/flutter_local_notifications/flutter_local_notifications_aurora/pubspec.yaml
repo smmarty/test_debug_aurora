@@ -7,7 +7,7 @@ version: 0.0.1
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
-  flutter: ">=2.5.0"
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
@@ -15,11 +15,13 @@ dependencies:
   dbus: ^0.7.8
   plugin_platform_interface: ^2.0.2
   flutter_local_notifications_platform_interface: ^7.0.0
-  package_info_plus: ^4.0.0
+  ## https://pub.dev/packages/package_info_plus
+  package_info_plus: 3.1.2
+  ## https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora
   package_info_plus_aurora:
     git:
       url: git@os-git.omprussia.ru:non-oss/flutter/flutter-plugins.git
-      ref: dev
+      ref: flutter_example_packages
       path: packages/package_info_plus/package_info_plus_aurora
 
 dev_dependencies:
