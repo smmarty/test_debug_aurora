@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2023. Open Mobile Platform LLC.
- * License: Proprietary.
+ * Copyright (C) 2023 Open Mobile Platform LLC.
  */
 import 'package:flutter/services.dart';
 import 'package:shared_preferences_aurora/shared_preferences_aurora_api.dart';

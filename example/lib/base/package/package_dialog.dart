@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2023. Open Mobile Platform LLC.
- * License: Proprietary.
+ * Copyright (C) 2023 Open Mobile Platform LLC.
  */
 import 'package:flutter_example_packages/base/package/package.dart';
 import 'package:universal_io/io.dart';

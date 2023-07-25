@@ -1,5 +1,4 @@
-# Copyright (c) 2023. Open Mobile Platform LLC.
-# License: Proprietary.
+# Copyright (C) 2023 Open Mobile Platform LLC.
 
 name: battery_plus_aurora
 description: The Aurora OS implementation of battery_plus.

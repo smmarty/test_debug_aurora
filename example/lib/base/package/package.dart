@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2023. Open Mobile Platform LLC.
- * License: Proprietary.
+ * Copyright (C) 2023 Open Mobile Platform LLC.
  */
 import 'package:universal_io/io.dart';
 

@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2023. Open Mobile Platform LLC.
- * License: Proprietary.
+ * Copyright (C) 2023 Open Mobile Platform LLC.
  */
 import 'package:battery_plus_aurora/com_nokia_mce_request.dart';
 import 'package:battery_plus_aurora/com_nokia_mce_signal.dart';

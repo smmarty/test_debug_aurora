@@ -1,5 +1,4 @@
-# Copyright (c) 2023. Open Mobile Platform LLC.
-# License: Proprietary.
+# Copyright (C) 2023 Open Mobile Platform LLC.
 
 name: flutter_secure_storage_aurora
 description: The Aurora OS implementation of flutter_secure_storage.

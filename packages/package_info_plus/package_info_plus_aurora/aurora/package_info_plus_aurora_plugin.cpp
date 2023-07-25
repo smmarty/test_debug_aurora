@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2023. Open Mobile Platform LLC.
- * License: Proprietary.
+ * Copyright (C) 2023 Open Mobile Platform LLC.
  */
 #include <package_info_plus_aurora/package_info_plus_aurora_plugin.h>
 #include <flutter/method-channel.h>

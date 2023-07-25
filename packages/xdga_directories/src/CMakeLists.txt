@@ -1,5 +1,4 @@
-# Copyright (c) 2023. Open Mobile Platform LLC.
-# License: Proprietary.
+# Copyright (C) 2023 Open Mobile Platform LLC.
 
 cmake_minimum_required(VERSION 3.10)
 

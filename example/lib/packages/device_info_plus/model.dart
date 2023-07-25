@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2023. Open Mobile Platform LLC.
- * License: Proprietary.
+ * Copyright (C) 2023 Open Mobile Platform LLC.
  */
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:device_info_plus_aurora/aurora_device_info.dart';

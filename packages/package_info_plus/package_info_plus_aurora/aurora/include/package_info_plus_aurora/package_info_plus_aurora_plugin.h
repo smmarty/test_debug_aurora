@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2023. Open Mobile Platform LLC.
- * License: Proprietary.
+ * Copyright (C) 2023 Open Mobile Platform LLC.
  */
 #ifndef FLUTTER_PLUGIN_PACKAGE_INFO_PLUS_AURORA_PLUGIN_H
 #define FLUTTER_PLUGIN_PACKAGE_INFO_PLUS_AURORA_PLUGIN_H
