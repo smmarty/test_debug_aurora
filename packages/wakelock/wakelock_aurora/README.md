@@ -1,6 +1,6 @@
 # wakelock_aurora
 
-The Aurora implementation of [`wakelock`][https://pub.dev/packages/wakelock].
+The Aurora implementation of [`wakelock`](https://pub.dev/packages/wakelock).
 
 ## Usage
 This package is not an _endorsed_ implementation of `wakelock`. 

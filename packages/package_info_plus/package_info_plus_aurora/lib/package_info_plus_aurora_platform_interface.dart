@@ -1,6 +1,5 @@
-/*
- * Copyright (C) 2023 Open Mobile Platform LLC.
- */
+// SPDX-FileCopyrightText: 2023 Open Mobile Platform LLC <community@omp.ru>
+// SPDX-License-Identifier: BSD-3-Clause
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'package_info_plus_aurora_method_channel.dart';

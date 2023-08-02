@@ -1,4 +1,5 @@
-# Copyright (C) 2023 Open Mobile Platform LLC.
+# SPDX-FileCopyrightText: 2023 Open Mobile Platform LLC <community@omp.ru>
+# SPDX-License-Identifier: BSD-3-Clause
 
 name: path_provider_aurora
 description: The Aurora OS implementation of path_provider.
@@ -19,7 +20,7 @@ dependencies:
   xdga_directories:
     git:
       url: git@os-git.omprussia.ru:non-oss/flutter/flutter-plugins.git
-      ref: flutter_example_packages
+      ref: master
       path: packages/xdga_directories
 
   ## https://pub.dev/packages/package_info_plus
@@ -28,7 +29,7 @@ dependencies:
   package_info_plus_aurora:
     git:
       url: git@os-git.omprussia.ru:non-oss/flutter/flutter-plugins.git
-      ref: flutter_example_packages
+      ref: master
       path: packages/package_info_plus/package_info_plus_aurora
 
 dev_dependencies:

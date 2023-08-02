@@ -1,6 +1,6 @@
 # shared_preferences_aurora
 
-The Aurora implementation of [`shared_preferences`][https://pub.dev/packages/shared_preferences].
+The Aurora implementation of [`shared_preferences`](https://pub.dev/packages/shared_preferences).
 
 ## Usage
 

@@ -1,5 +1,6 @@
-/*
- * Copyright (C) 2023 Open Mobile Platform LLC.
+/**
+ * SPDX-FileCopyrightText: 2023 Open Mobile Platform LLC <community@omp.ru>
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 #ifndef FLUTTER_PLUGIN_PACKAGE_INFO_PLUS_AURORA_PLUGIN_H
 #define FLUTTER_PLUGIN_PACKAGE_INFO_PLUS_AURORA_PLUGIN_H

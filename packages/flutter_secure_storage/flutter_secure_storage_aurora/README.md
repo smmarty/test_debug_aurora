@@ -1,6 +1,6 @@
 # flutter_secure_storage_aurora
 
-The Aurora implementation of [`flutter_secure_storage`][https://pub.dev/packages/flutter_secure_storage].
+The Aurora implementation of [`flutter_secure_storage`](https://pub.dev/packages/flutter_secure_storage).
 
 ## Usage
 

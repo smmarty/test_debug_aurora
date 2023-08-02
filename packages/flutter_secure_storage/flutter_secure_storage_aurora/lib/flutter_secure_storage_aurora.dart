@@ -1,6 +1,5 @@
-/*
- * Copyright (C) 2023 Open Mobile Platform LLC.
- */
+// SPDX-FileCopyrightText: 2023 Open Mobile Platform LLC <community@omp.ru>
+// SPDX-License-Identifier: BSD-3-Clause
 import 'package:flutter_secure_storage_platform_interface/flutter_secure_storage_platform_interface.dart';
 import 'package:path_provider_aurora/path_provider_aurora.dart';
 import 'null_secret_exception.dart';

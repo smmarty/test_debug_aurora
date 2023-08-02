@@ -1,6 +1,5 @@
-/*
- * Copyright (C) 2023 Open Mobile Platform LLC.
- */
+// SPDX-FileCopyrightText: 2023 Open Mobile Platform LLC <community@omp.ru>
+// SPDX-License-Identifier: BSD-3-Clause
 import 'package:flutter/services.dart';
 import 'package:shared_preferences_aurora/shared_preferences_aurora_api.dart';
 import 'package:shared_preferences_platform_interface/shared_preferences_platform_interface.dart';

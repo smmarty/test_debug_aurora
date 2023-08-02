@@ -1,6 +1,5 @@
-/*
- * Copyright (C) 2023 Open Mobile Platform LLC.
- */
+// SPDX-FileCopyrightText: 2023 Open Mobile Platform LLC <community@omp.ru>
+// SPDX-License-Identifier: BSD-3-Clause
 import 'package:battery_plus_aurora/com_nokia_mce_request.dart';
 import 'package:battery_plus_aurora/com_nokia_mce_signal.dart';
 import 'package:dbus/dbus.dart';
