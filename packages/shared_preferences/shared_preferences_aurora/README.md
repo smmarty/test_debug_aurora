@@ -11,8 +11,12 @@ Therefore, you have to include `path_provider_aurora` alongside `shared_preferen
 
 ```yaml
 dependencies:
-  shared_preferences: ^2.1.1
-  shared_preferences_aurora: ^0.0.0 # @todo Not published 
+  shared_preferences: ^2.1.2
+  shared_preferences_aurora:
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/shared_preferences/shared_preferences_aurora
 ```
 
 ***.dart**

@@ -12,7 +12,10 @@ Therefore, you have to include `wakelock_aurora` alongside `wakelock` as depende
 dependencies:
   wakelock: ^0.6.2
   wakelock_aurora:
-    path: # path to folder with plugin
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/wakelock/wakelock_aurora
 ```
 
 ***.dart**

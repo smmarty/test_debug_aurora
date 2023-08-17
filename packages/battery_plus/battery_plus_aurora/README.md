@@ -13,7 +13,10 @@ Therefore, you have to include `battery_plus_aurora` alongside `battery_plus` as
 dependencies:
   battery_plus: ^4.0.1
   battery_plus_aurora:
-    path: # path to folder with plugin
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/battery_plus/battery_plus_aurora
 ```
 
 ***.dart**

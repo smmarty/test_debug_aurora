@@ -10,9 +10,12 @@ Therefore, you have to include `flutter_local_notifications_aurora` alongside `f
 
 ```yaml
 dependencies:
-  flutter_local_notifications: 14.0.0+2
+  flutter_local_notifications: ^14.1.1
   flutter_local_notifications_aurora:
-    path: # path to folder with plugin
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/flutter_local_notifications/flutter_local_notifications_aurora
 ```
 
 ***.dart**

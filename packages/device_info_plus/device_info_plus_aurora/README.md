@@ -39,7 +39,10 @@ Therefore, you have to include `device_info_plus_aurora` alongside `device_info_
 dependencies:
   device_info_plus: ^8.2.2
   device_info_plus_aurora:
-    path: # path to folder with plugin
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/device_info_plus/device_info_plus_aurora
 ```
 
 ***.dart**

@@ -13,7 +13,10 @@ Therefore, you have to include `package_info_plus_aurora` alongside `package_inf
 dependencies:
   package_info_plus: 3.1.2
   package_info_plus_aurora:
-    path: # path to folder with plugin
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/package_info_plus/package_info_plus_aurora
 ```
 
 ***.dart**

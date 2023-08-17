@@ -13,7 +13,10 @@ Therefore, you have to include `flutter_secure_storage_aurora` alongside `flutte
 dependencies:
   flutter_secure_storage: ^8.0.0
   flutter_secure_storage_aurora:
-    path: # path to folder with plugin
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/flutter_secure_storage/flutter_secure_storage_aurora
 ```
 
 ***.dart**

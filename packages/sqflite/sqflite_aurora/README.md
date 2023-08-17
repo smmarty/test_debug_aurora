@@ -13,7 +13,10 @@ Therefore, you have to include `sqflite_aurora` alongside `sqflite` as dependenc
 dependencies:
   sqflite: ^2.2.6
   sqflite_aurora:
-    path: # path to folder with plugin
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/sqflite/sqflite_aurora
 ```
 
 ***.dart**

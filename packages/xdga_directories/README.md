@@ -20,8 +20,11 @@ To use this package, the basic XDG values for the following are available via a 
 
 ```yaml
 dependencies:
-  flutter_secure_storage_aurora:
-    path: # path to folder with plugin
+  xdga_directories:
+    git:
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/xdga_directories
 ```
 
 ***.dart**
