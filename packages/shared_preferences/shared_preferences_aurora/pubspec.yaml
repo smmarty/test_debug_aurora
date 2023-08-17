@@ -19,10 +19,10 @@ dependencies:
 
   ## https://pub.dev/packages/path_provider
   path_provider: ^2.0.15
-  ## https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/master/packages/path_provider/path_provider_aurora
+  ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/path_provider/path_provider_aurora
   path_provider_aurora:
     git:
-      url: git@os-git.omprussia.ru:non-oss/flutter/flutter-plugins.git
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/path_provider/path_provider_aurora
 

@@ -17,10 +17,10 @@ dependencies:
   flutter_local_notifications_platform_interface: ^7.0.0
   ## https://pub.dev/packages/package_info_plus
   package_info_plus: 3.1.2
-  ## https://os-git.omprussia.ru/non-oss/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora
+  ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora
   package_info_plus_aurora:
     git:
-      url: git@os-git.omprussia.ru:non-oss/flutter/flutter-plugins.git
+      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/package_info_plus/package_info_plus_aurora
 
