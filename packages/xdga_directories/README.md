@@ -22,7 +22,7 @@ To use this package, the basic XDG values for the following are available via a 
 dependencies:
   xdga_directories:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/xdga_directories
 ```

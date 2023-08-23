@@ -14,7 +14,7 @@ dependencies:
   package_info_plus: 3.1.2
   package_info_plus_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/package_info_plus/package_info_plus_aurora
 ```

@@ -19,7 +19,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/xdga_directories
   xdga_directories:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/xdga_directories
 
@@ -28,7 +28,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora
   package_info_plus_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/package_info_plus/package_info_plus_aurora
 

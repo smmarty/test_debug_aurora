@@ -13,7 +13,7 @@ dependencies:
   flutter_keyboard_visibility: ^5.4.1
   flutter_keyboard_visibility_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora
 ```

@@ -13,7 +13,7 @@ dependencies:
   wakelock: ^0.6.2
   wakelock_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/wakelock/wakelock_aurora
 ```

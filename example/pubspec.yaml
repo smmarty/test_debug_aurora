@@ -60,7 +60,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/xdga_directories
   xdga_directories:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/xdga_directories
 
@@ -69,7 +69,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/battery_plus/battery_plus_aurora
   battery_plus_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/battery_plus/battery_plus_aurora
 
@@ -78,7 +78,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/device_info_plus/device_info_plus_aurora
   device_info_plus_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/device_info_plus/device_info_plus_aurora
 
@@ -87,7 +87,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_local_notifications/flutter_local_notifications_aurora
   flutter_local_notifications_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/flutter_local_notifications/flutter_local_notifications_aurora
 
@@ -96,7 +96,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_secure_storage/flutter_secure_storage_aurora
   flutter_secure_storage_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/flutter_secure_storage/flutter_secure_storage_aurora
 
@@ -105,7 +105,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora
   package_info_plus_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/package_info_plus/package_info_plus_aurora
 
@@ -114,7 +114,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/path_provider/path_provider_aurora
   path_provider_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/path_provider/path_provider_aurora
 
@@ -123,7 +123,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/shared_preferences/shared_preferences_aurora
   shared_preferences_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/shared_preferences/shared_preferences_aurora
 
@@ -132,7 +132,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/wakelock/wakelock_aurora
   wakelock_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/wakelock/wakelock_aurora
 
@@ -141,7 +141,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora
   flutter_keyboard_visibility_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora
 
@@ -150,7 +150,7 @@ dependencies:
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/sqflite/sqflite_aurora
   sqflite_aurora:
     git:
-      url: git@gitlab.com:omprussia/flutter/flutter-plugins.git
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
       ref: master
       path: packages/sqflite/sqflite_aurora
 
