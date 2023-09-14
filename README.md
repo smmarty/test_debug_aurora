@@ -25,7 +25,7 @@
 
 - ### Plugin Package
 
-    Пакет, предоставляющий API ны языке Dart в сочетании с одной или несколькими реализациями под конкретные платформы, использующий механизм [Platform Channels](https://docs.flutter.dev/platform-integration/platform-channels).
+    Пакет, предоставляющий API на языке Dart в сочетании с одной или несколькими реализациями под конкретные платформы, использующий механизм [Platform Channels](https://docs.flutter.dev/platform-integration/platform-channels).
     Для реализации плагина под ОС Аврора используется язык C++.
 
 - ### Qt Plugin Package
@@ -36,7 +36,7 @@
 
 - ### FFI Plugin Package
 
-    Пакет, предоставляющий API ны языке Dart в сочетании с одной или несколькими реализациями под конкретные платформы, использующий механизм [Dart FFI](https://dart.dev/guides/libraries/c-interop).
+    Пакет, предоставляющий API на языке Dart в сочетании с одной или несколькими реализациями под конкретные платформы, использующий механизм [Dart FFI](https://dart.dev/guides/libraries/c-interop).
 
 # Демонстрационное приложение
 
