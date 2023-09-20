@@ -13,8 +13,8 @@ Qt plugin package - является обычным плагином типа "[
 #include <QtCore>
 
 class PLUGIN_EXPORT PluginDevicePlugin final
-    : public QObject,
-      public PluginInterface
+    : public QObject
+    , public PluginInterface
 {
     Q_OBJECT
 
@@ -102,6 +102,14 @@ void PluginDevicePlugin::unimplemented(const MethodCall &call)
 
 ```
 set_target_properties(${PLUGIN_NAME} PROPERTIES CXX_VISIBILITY_PRESET hidden AUTOMOC ON)
+```
+
+Для подключения Qt в плагин нужно добавить в `CMakeLists.txt` как минимум [QtCore](https://doc.qt.io/qt-5/qtcore-index.html):
+
+```
+find_package(Qt5 COMPONENTS Core REQUIRED)
+
+target_link_libraries(${PLUGIN_NAME} PUBLIC Qt5::Core)
 ```
 
 Для работы плагина в приложении Qt нужно включить отдельно. Сделать это можно добавив в `main` функцию приложения вызов метода `EnableQtCompatibility()`. Выглядеть это может следующим образом:
