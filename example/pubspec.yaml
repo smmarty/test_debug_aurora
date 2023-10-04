@@ -9,7 +9,7 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.18.6 <3.0.0"
+  sdk: ">=3.1.2 <4.0.0"
 
 dependencies:
   flutter:
@@ -17,27 +17,27 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   ## https://pub.dev/packages/cupertino_icons
-  cupertino_icons: ^1.0.5
+  cupertino_icons: ^1.0.6
   ## https://pub.dev/packages/google_fonts
-  google_fonts: ^4.0.4
+  google_fonts: ^6.1.0
   ## https://pub.dev/packages/scoped_model
   scoped_model: ^2.0.0
   ## https://pub.dev/packages/get_it
-  get_it: ^7.6.0
+  get_it: ^7.6.4
   ## https://pub.dev/packages/intl
-  intl: ^0.17.0
+  intl: ^0.18.1
   ## https://pub.dev/packages/universal_io
-  universal_io: ^2.2.0
+  universal_io: ^2.2.2
   ## https://pub.dev/packages/crypto
-  crypto: ^3.0.2
+  crypto: ^3.0.3
   ## https://pub.dev/packages/cached_network_image
-  cached_network_image: ^3.2.3
+  cached_network_image: ^3.3.0
   ## https://pub.dev/packages/flutter_cache_manager
-  flutter_cache_manager: ^3.3.0
+  flutter_cache_manager: ^3.3.1
   ## https://pub.dev/packages/photo_view
   photo_view: ^0.14.0
   ## https://pub.dev/packages/path
-  path: ^1.8.2
+  path: ^1.8.3
   ## https://pub.dev/packages/dartz
   dartz: ^0.10.1
   ## https://pub.dev/packages/provider
@@ -45,127 +45,126 @@ dependencies:
   ## https://pub.dev/packages/equatable
   equatable: ^2.0.5
   ## https://pub.dev/packages/qr_flutter
-  qr_flutter: ^4.0.0
+  qr_flutter: ^4.1.0
   ## https://pub.dev/packages/rxdart
   rxdart: ^0.27.7
-  ## https://pub.dev/packages/translator
-  translator: ^0.1.7
   ## https://pub.dev/packages/flutter_markdown
-  flutter_markdown: ^0.6.15
+  flutter_markdown: ^0.6.17+4
   ## https://pub.dev/packages/freezed_annotation
-  freezed_annotation: ^2.2.0
+  freezed_annotation: ^2.4.1
   ## https://pub.dev/packages/json_annotation
-  json_annotation: ^4.8.0
+  json_annotation: ^4.8.1
 
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/xdga_directories
   xdga_directories:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/xdga_directories
+    path: ../packages/xdga_directories
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/xdga_directories
 
   ## https://pub.dev/packages/battery_plus
-  battery_plus: ^4.0.1
+  battery_plus: ^4.0.2
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/battery_plus/battery_plus_aurora
   battery_plus_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/battery_plus/battery_plus_aurora
+    path: ../packages/battery_plus/battery_plus_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/battery_plus/battery_plus_aurora
 
   ## https://pub.dev/packages/device_info_plus
-  device_info_plus: ^8.2.2
+  device_info_plus: ^9.0.3
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/device_info_plus/device_info_plus_aurora
   device_info_plus_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/device_info_plus/device_info_plus_aurora
+    path: ../packages/device_info_plus/device_info_plus_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/device_info_plus/device_info_plus_aurora
 
   ## https://pub.dev/packages/flutter_local_notifications
-  flutter_local_notifications: ^14.1.1
+  flutter_local_notifications: ^15.1.1
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_local_notifications/flutter_local_notifications_aurora
   flutter_local_notifications_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/flutter_local_notifications/flutter_local_notifications_aurora
-
+    path: ../packages/flutter_local_notifications/flutter_local_notifications_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/flutter_local_notifications/flutter_local_notifications_aurora
+#
   ## https://pub.dev/packages/flutter_secure_storage
-  flutter_secure_storage: ^8.0.0
+  flutter_secure_storage: ^9.0.0
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_secure_storage/flutter_secure_storage_aurora
   flutter_secure_storage_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/flutter_secure_storage/flutter_secure_storage_aurora
+    path: ../packages/flutter_secure_storage/flutter_secure_storage_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/flutter_secure_storage/flutter_secure_storage_aurora
 
   ## https://pub.dev/packages/package_info_plus
-  package_info_plus: 3.1.2
+  package_info_plus: 4.1.0
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora
   package_info_plus_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/package_info_plus/package_info_plus_aurora
+    path: ../packages/package_info_plus/package_info_plus_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/package_info_plus/package_info_plus_aurora
 
   ## https://pub.dev/packages/path_provider
-  path_provider: ^2.0.15
+  path_provider: ^2.1.1
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/path_provider/path_provider_aurora
   path_provider_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/path_provider/path_provider_aurora
+    path: ../packages/path_provider/path_provider_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/path_provider/path_provider_aurora
 
   ## https://pub.dev/packages/shared_preferences
   shared_preferences: ^2.1.2
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/shared_preferences/shared_preferences_aurora
   shared_preferences_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/shared_preferences/shared_preferences_aurora
-
-  ## https://pub.dev/packages/wakelock
-  wakelock: ^0.6.2
-  ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/wakelock/wakelock_aurora
-  wakelock_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/wakelock/wakelock_aurora
+    path: ../packages/shared_preferences/shared_preferences_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/shared_preferences/shared_preferences_aurora
 
   ## https://pub.dev/packages/flutter_keyboard_visibility
   flutter_keyboard_visibility: ^5.4.1
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora
   flutter_keyboard_visibility_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora
+    path: ../packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora
 
   ## https://pub.dev/packages/sqflite
-  sqflite: ^2.2.6
+  sqflite: ^2.3.0
   ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/sqflite/sqflite_aurora
   sqflite_aurora:
-    git:
-      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
-      ref: master
-      path: packages/sqflite/sqflite_aurora
+    path: ../packages/sqflite/sqflite_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/sqflite/sqflite_aurora
 
 dev_dependencies:
   flutter_test:
     sdk:
       flutter
-  ## https://pub.dev/packages/flutter_lints @todo
-  flutter_lints: ^2.0.0
+  ## https://pub.dev/packages/flutter_lints
+  flutter_lints: ^2.0.3
   ## https://pub.dev/packages/build_runner
-  build_runner: ^2.3.3
+  build_runner: ^2.4.6
   ## https://pub.dev/packages/freezed
-  freezed: ^2.3.3
+  freezed: ^2.4.3
   ## https://pub.dev/packages/json_serializable
-  json_serializable: ^6.6.1
+  json_serializable: ^6.7.1
 
 flutter:
   generate: true

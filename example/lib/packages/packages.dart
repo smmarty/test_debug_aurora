@@ -31,9 +31,7 @@ import 'package:flutter_example_packages/packages/rxdart/package.dart';
 import 'package:flutter_example_packages/packages/scoped_model/package.dart';
 import 'package:flutter_example_packages/packages/shared_preferences/package.dart';
 import 'package:flutter_example_packages/packages/sqflite/package.dart';
-import 'package:flutter_example_packages/packages/translator/package.dart';
 import 'package:flutter_example_packages/packages/universal_io/package.dart';
-import 'package:flutter_example_packages/packages/wakelock/package.dart';
 import 'package:flutter_example_packages/packages/xdga_directories/package.dart';
 
 /// List app packages
@@ -68,8 +66,6 @@ final packages = <Package>[
   packageScopedModel,
   packageSharedPreferences,
   packageSqflite,
-  packageTranslator,
   packageUniversalIO,
-  packageWakelock,
   packageXdgaDirectories,
 ];

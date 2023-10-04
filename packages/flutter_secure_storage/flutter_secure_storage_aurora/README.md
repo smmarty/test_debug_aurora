@@ -25,10 +25,6 @@ dependencies:
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_secure_storage_aurora/flutter_secure_storage_aurora.dart';
 
-// https://pub.dev/packages/encrypt
-// Encrypter(AES(key))
-// secure-random --length 16 --base 16
-// You can generate a secret key based on user data, as an example of a hash pincode
 FlutterSecureStorageAurora.setSecret('5872747ed1ceda363808efb8b2b18b20');
 
 final storage = const FlutterSecureStorage();

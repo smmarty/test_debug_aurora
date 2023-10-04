@@ -48,6 +48,7 @@ class FlutterSecureStorageModel extends Model {
       // Read data
       _readValue = await _secureStorage.read(key: key) ?? "Not found";
     } catch (e) {
+      debugPrint(e.toString());
       _readValue = "Error password";
     }
     notifyListeners();
@@ -83,10 +84,6 @@ class FlutterSecureStorageModel extends Model {
   void _updateByPassword(
     String password,
   ) {
-    // https://pub.dev/packages/encrypt
-    // Encrypter(AES(key))
-    // secure-random --length 16 --base 16
-    // You can generate a secret key based on user data, as an example of a hash pin-code
     FlutterSecureStorageAurora.setSecret(
       _getPasswordFromString(password),
     );

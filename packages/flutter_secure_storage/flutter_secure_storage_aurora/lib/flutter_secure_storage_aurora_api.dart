@@ -5,6 +5,7 @@ import 'dart:io';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:encrypt/encrypt.dart' as encrypt;
+import 'package:crypto/crypto.dart' as crypto;
 
 class FlutterSecureStorageAuroraApi {
   final JsonDecoder decoder = const JsonDecoder();
@@ -87,15 +88,25 @@ class FlutterSecureStorageAuroraApi {
 
   /// Encrypt data in file
   String _encrypt(String value) {
-    final key = encrypt.Key.fromUtf8(_secret);
-    final iv = encrypt.IV.fromLength(16);
-    return encrypt.Encrypter(encrypt.AES(key)).encrypt(value, iv: iv).base64;
+    var ivStr = crypto.sha256.convert(utf8.encode(_secret)).toString().substring(0, 16);
+    var keyStr = crypto.sha256.convert(utf8.encode(_secret)).toString().substring(0, 32);
+
+    encrypt.IV iv = encrypt.IV.fromUtf8(ivStr);
+    encrypt.Key key = encrypt.Key.fromUtf8(keyStr);
+    final encrypter = encrypt.Encrypter(encrypt.AES(key));
+
+    return encrypter.encrypt(value, iv: iv).base64;
   }
 
   /// Decrypt data in file
   String _decrypt(String value) {
-    final key = encrypt.Key.fromUtf8(_secret);
-    final iv = encrypt.IV.fromLength(16);
-    return encrypt.Encrypter(encrypt.AES(key)).decrypt64(value, iv: iv);
+    var ivStr = crypto.sha256.convert(utf8.encode(_secret)).toString().substring(0, 16);
+    var keyStr = crypto.sha256.convert(utf8.encode(_secret)).toString().substring(0, 32);
+
+    encrypt.IV iv = encrypt.IV.fromUtf8(ivStr);
+    encrypt.Key key = encrypt.Key.fromUtf8(keyStr);
+    final encrypter = encrypt.Encrypter(encrypt.AES(key));
+
+    return encrypter.decrypt64(value, iv: iv);
   }
 }

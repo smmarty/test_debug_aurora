@@ -27,45 +27,43 @@
 
 | Плагин ОС Аврора                                                                                                                                                                 | Версия  | Внешний плагин                                                                      | Версия   | Версия ОС Аврора   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------|----------|--------------------|
-| [battery_plus_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/battery_plus/battery_plus_aurora)                                              | `0.0.1` | [battery_plus](https://pub.dev/packages/battery_plus)                               | `4.0.1`  | `4.0.2.269`        |
-| [device_info_plus_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/device_info_plus/device_info_plus_aurora)                                  | `0.0.1` | [device_info_plus](https://pub.dev/packages/device_info_plus)                       | `8.2.2`  | `4.0.2.269`        |
+| [battery_plus_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/battery_plus/battery_plus_aurora)                                              | `0.0.1` | [battery_plus](https://pub.dev/packages/battery_plus)                               | `4.0.2`  | `4.0.2.269`        |
+| [device_info_plus_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/device_info_plus/device_info_plus_aurora)                                  | `0.0.1` | [device_info_plus](https://pub.dev/packages/device_info_plus)                       | `9.0.3`  | `4.0.2.269`        |
 | [flutter_keyboard_visibility_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_keyboard_visibility/flutter_keyboard_visibility_aurora) | `0.0.1` | [flutter_keyboard_visibility](https://pub.dev/packages/flutter_keyboard_visibility) | `5.4.1`  | `4.0.2.269`        | 
-| [flutter_local_notifications_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_local_notifications/flutter_local_notifications_aurora) | `0.0.1` | [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) | `14.1.1` | `4.0.2.269`        |
-| [flutter_secure_storage_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_secure_storage/flutter_secure_storage_aurora)                | `0.0.1` | [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)           | `8.0.0`  | `4.0.2.269`        |
-| [package_info_plus_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora)                               | `0.0.1` | [package_info_plus](https://pub.dev/packages/package_info_plus)                     | `3.1.2`  | `4.0.2.269`        |
-| [path_provider_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/path_provider/path_provider_aurora)                                           | `0.0.1` | [path_provider](https://pub.dev/packages/path_provider)                             | `2.0.15` | `4.0.2.269`        |
+| [flutter_local_notifications_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_local_notifications/flutter_local_notifications_aurora) | `0.0.1` | [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) | `15.1.1` | `4.0.2.269`        |
+| [flutter_secure_storage_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/flutter_secure_storage/flutter_secure_storage_aurora)                | `0.0.1` | [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)           | `9.0.0`  | `4.0.2.269`        |
+| [package_info_plus_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/package_info_plus/package_info_plus_aurora)                               | `0.0.1` | [package_info_plus](https://pub.dev/packages/package_info_plus)                     | `4.1.0`  | `4.0.2.269`        |
+| [path_provider_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/path_provider/path_provider_aurora)                                           | `0.0.1` | [path_provider](https://pub.dev/packages/path_provider)                             | `2.1.1`  | `4.0.2.269`        |
 | [shared_preferences_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/shared_preferences/shared_preferences_aurora)                            | `0.0.1` | [shared_preferences](https://pub.dev/packages/shared_preferences)                   | `2.1.2`  | `4.0.2.269`        |
-| [sqflite_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/sqflite/sqflite_aurora)                                                             | `0.0.1` | [sqflite](https://pub.dev/packages/sqflite)                                         | `2.2.6`  | `4.0.2.269`        |
-| [wakelock_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/wakelock/wakelock_aurora)                                                          | `0.0.1` | [wakelock](https://pub.dev/packages/wakelock)                                       | `0.6.2`  | `4.0.2.269`        |
+| [sqflite_aurora](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/sqflite/sqflite_aurora)                                                             | `0.0.1` | [sqflite](https://pub.dev/packages/sqflite)                                         | `2.3.0`  | `4.0.2.269`        |
 | [xdga_directories](https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/xdga_directories)                                                                 | `0.0.1` | -                                                                                   | -        | `4.0.2.269`        |
-| -                                                                                                                                                                                | -       | [flutter_cache_manager](https://pub.dev/packages/flutter_cache_manager)             | 3.3.0    | `4.0.2.269`        |
-| -                                                                                                                                                                                | -       | [cached_network_image](https://pub.dev/packages/cached_network_image)               | 3.2.3    | `4.0.2.269`        |
-| -                                                                                                                                                                                | -       | [google_fonts](https://pub.dev/packages/google_fonts)                               | 4.0.4    | `4.0.2.269`        |
+| -                                                                                                                                                                                | -       | [flutter_cache_manager](https://pub.dev/packages/flutter_cache_manager)             | `3.3.1`  | `4.0.2.269`        |
+| -                                                                                                                                                                                | -       | [cached_network_image](https://pub.dev/packages/cached_network_image)               | `3.3.0`  | `4.0.2.269`        |
+| -                                                                                                                                                                                | -       | [google_fonts](https://pub.dev/packages/google_fonts)                               | `6.1.0`  | `4.0.2.269`        |
 
 ## Пакеты Flutter
 
 Список проверенных на совместимость и работоспособность в ОС Аврора пакетов Flutter не являющиеся платформо-зависимыми.
 
-| Внешний плагин                                                                      | Версия  | Версия ОС Аврора   |
-|-------------------------------------------------------------------------------------|---------|--------------------|
-| [crypto](https://pub.dev/packages/crypto)                                           | 3.0.2   | `4.0.2.269`        |
-| [cupertino_icons](https://pub.dev/packages/cupertino_icons)                         | 1.0.5   | `4.0.2.269`        |
-| [get_it](https://pub.dev/packages/get_it)                                           | 7.6.0   | `4.0.2.269`        |
-| [intl](https://pub.dev/packages/intl)                                               | 0.17.0  | `4.0.2.269`        |
-| [photo_view](https://pub.dev/packages/photo_view)                                   | 0.14.0  | `4.0.2.269`        |
-| [scoped_model](https://pub.dev/packages/scoped_model)                               | 2.0.0   | `4.0.2.269`        |
-| [dartz](https://pub.dev/packages/dartz)                                             | 0.10.1  | `4.0.2.269`        |  
-| [freezed](https://pub.dev/packages/freezed)                                         | 2.3.3   | `4.0.2.269`        |
-| [equatable](https://pub.dev/packages/equatable)                                     | 2.0.5   | `4.0.2.269`        |
-| [flutter_markdown](https://pub.dev/packages/flutter_markdown)                       | 0.6.15  | `4.0.2.269`        |
-| [build_runner](https://pub.dev/packages/build_runner)                               | 2.3.3   | `4.0.2.269`        |
-| [freezed_annotation](https://pub.dev/packages/freezed_annotation)                   | 2.2.0   | `4.0.2.269`        |
-| [json_annotation](https://pub.dev/packages/json_annotation)                         | 4.8.0   | `4.0.2.269`        |
-| [json_serializable](https://pub.dev/packages/json_serializable)                     | 6.6.1   | `4.0.2.269`        |
-| [provider](https://pub.dev/packages/provider)                                       | 6.0.5   | `4.0.2.269`        |
-| [qr_flutter](https://pub.dev/packages/qr_flutter)                                   | 4.0.0   | `4.0.2.269`        |
-| [rxdart](https://pub.dev/packages/rxdart)                                           | 0.27.7  | `4.0.2.269`        |
-| [translator](https://pub.dev/packages/translator)                                   | 0.1.7   | `4.0.2.269`        |
+| Внешний плагин                                                                      | Версия     | Версия ОС Аврора   |
+|-------------------------------------------------------------------------------------|------------|--------------------|
+| [crypto](https://pub.dev/packages/crypto)                                           | `3.0.3`    | `4.0.2.269`        |
+| [cupertino_icons](https://pub.dev/packages/cupertino_icons)                         | `1.0.6`    | `4.0.2.269`        |
+| [get_it](https://pub.dev/packages/get_it)                                           | `7.6.4`    | `4.0.2.269`        |
+| [intl](https://pub.dev/packages/intl)                                               | `0.18.1`   | `4.0.2.269`        |
+| [photo_view](https://pub.dev/packages/photo_view)                                   | `0.14.0`   | `4.0.2.269`        |
+| [scoped_model](https://pub.dev/packages/scoped_model)                               | `2.0.0`    | `4.0.2.269`        |
+| [dartz](https://pub.dev/packages/dartz)                                             | `0.10.1`   | `4.0.2.269`        |  
+| [freezed](https://pub.dev/packages/freezed)                                         | `2.4.3`    | `4.0.2.269`        |
+| [equatable](https://pub.dev/packages/equatable)                                     | `2.0.5`    | `4.0.2.269`        |
+| [flutter_markdown](https://pub.dev/packages/flutter_markdown)                       | `0.6.17+4` | `4.0.2.269`        |
+| [build_runner](https://pub.dev/packages/build_runner)                               | `2.4.6`    | `4.0.2.269`        |
+| [freezed_annotation](https://pub.dev/packages/freezed_annotation)                   | `2.4.1`    | `4.0.2.269`        |
+| [json_annotation](https://pub.dev/packages/json_annotation)                         | `4.8.1`    | `4.0.2.269`        |
+| [json_serializable](https://pub.dev/packages/json_serializable)                     | `6.7.1`    | `4.0.2.269`        |
+| [provider](https://pub.dev/packages/provider)                                       | `6.0.5`    | `4.0.2.269`        |
+| [qr_flutter](https://pub.dev/packages/qr_flutter)                                   | `4.1.0`    | `4.0.2.269`        |
+| [rxdart](https://pub.dev/packages/rxdart)                                           | `0.27.7`   | `4.0.2.269`        |
 
 ## Вклад
 
