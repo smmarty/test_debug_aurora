@@ -11,7 +11,7 @@ Therefore, you have to include `battery_plus_aurora` alongside `battery_plus` as
 
 ```yaml
 dependencies:
-  battery_plus: ^4.0.1
+  battery_plus: ^4.0.2
   battery_plus_aurora:
     git:
       url: https://gitlab.com/omprussia/flutter/flutter-plugins.git

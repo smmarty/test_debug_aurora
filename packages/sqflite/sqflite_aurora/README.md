@@ -11,7 +11,7 @@ Therefore, you have to include `sqflite_aurora` alongside `sqflite` as dependenc
 
 ```yaml
 dependencies:
-  sqflite: ^2.2.6
+  sqflite: ^2.3.0
   sqflite_aurora:
     git:
       url: https://gitlab.com/omprussia/flutter/flutter-plugins.git

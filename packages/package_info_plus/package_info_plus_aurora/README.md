@@ -11,7 +11,7 @@ Therefore, you have to include `package_info_plus_aurora` alongside `package_inf
 
 ```yaml
 dependencies:
-  package_info_plus: 3.1.2
+  package_info_plus: 4.1.0
   package_info_plus_aurora:
     git:
       url: https://gitlab.com/omprussia/flutter/flutter-plugins.git

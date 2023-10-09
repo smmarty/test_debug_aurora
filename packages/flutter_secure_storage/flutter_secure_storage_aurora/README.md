@@ -11,7 +11,7 @@ Therefore, you have to include `flutter_secure_storage_aurora` alongside `flutte
 
 ```yaml
 dependencies:
-  flutter_secure_storage: ^8.0.0
+  flutter_secure_storage: ^9.0.0
   flutter_secure_storage_aurora:
     git:
       url: https://gitlab.com/omprussia/flutter/flutter-plugins.git

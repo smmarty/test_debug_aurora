@@ -12,7 +12,7 @@ Therefore, you have to include `path_provider_aurora` alongside `path_provider` 
 
 ```yaml
 dependencies:
-  path_provider: ^2.0.15
+  path_provider: ^2.1.1
   path_provider_aurora:
     git:
       url: https://gitlab.com/omprussia/flutter/flutter-plugins.git

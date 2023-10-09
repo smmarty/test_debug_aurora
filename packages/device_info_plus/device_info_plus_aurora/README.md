@@ -37,7 +37,7 @@ Therefore, you have to include `device_info_plus_aurora` alongside `device_info_
 
 ```yaml
 dependencies:
-  device_info_plus: ^8.2.2
+  device_info_plus: ^9.0.3
   device_info_plus_aurora:
     git:
       url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
