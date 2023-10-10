@@ -169,7 +169,7 @@
   },
 
   "@_WAKELOCK": {},
-  "wakelockTitle": "Wakelock",
+  "wakelockTitle": "Lock",
   "wakelockDesc": "The plugin allows you to enable and toggle the screen wakelock, which prevents the screen from turning off automatically.",
 
   "@_XDGA_DIRECTORIES": {},

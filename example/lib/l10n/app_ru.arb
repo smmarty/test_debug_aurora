@@ -161,7 +161,7 @@
   "sharedPreferencesFieldError": "Пожалуйста, введите {value} значение",
 
   "@_WAKELOCK": {},
-  "wakelockTitle": "Wakelock",
+  "wakelockTitle": "Блокировка",
   "wakelockDesc": "Плагин позволяет включать и переключать блокировку экрана, которая предотвращает автоматическое выключение экрана.",
 
   "@_XDGA_DIRECTORIES": {},

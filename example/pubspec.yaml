@@ -153,6 +153,16 @@ dependencies:
 #      ref: master
 #      path: packages/sqflite/sqflite_aurora
 
+  ## https://pub.dev/packages/wakelock_plus
+  wakelock_plus: ^1.1.1
+  ## https://gitlab.com/omprussia/flutter/flutter-plugins/-/tree/master/packages/wakelock_plus/wakelock_plus_aurora
+  wakelock_plus_aurora:
+    path: ../packages/wakelock_plus/wakelock_plus_aurora
+#    git:
+#      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+#      ref: master
+#      path: packages/wakelock_plus/wakelock_plus_aurora
+
 dev_dependencies:
   flutter_test:
     sdk:
