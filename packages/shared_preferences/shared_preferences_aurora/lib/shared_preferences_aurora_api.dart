@@ -53,7 +53,7 @@ class SharedPreferencesAuroraApi {
   /// Get file with data
   Future<File> _getFile() async {
     return File(p.join(
-      (await getTemporaryDirectory()).path,
+      (await getApplicationSupportDirectory()).path,
       fileName,
     )).create(recursive: true);
   }
