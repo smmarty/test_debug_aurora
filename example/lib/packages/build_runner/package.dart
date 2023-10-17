@@ -24,6 +24,6 @@ final packageBuildRunner = PackageDialog(
     Это плагин независимый от платформы, используется в этом приложении, 
     должен работать и у вас.
     ''',
-  version: '2.3.3',
+  version: '2.4.6',
   isPlatformDependent: false,
 );

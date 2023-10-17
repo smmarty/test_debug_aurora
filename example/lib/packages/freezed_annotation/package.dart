@@ -19,6 +19,6 @@ final packageFreezedAnnotation = PackageDialog(
     Это плагин независимый от платформы, используется в этом приложении в 
     демострации работы плагина freezed.
     ''',
-  version: '2.2.0',
+  version: '2.4.1',
   isPlatformDependent: false,
 );

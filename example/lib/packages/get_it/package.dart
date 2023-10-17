@@ -21,6 +21,6 @@ final packageGetIt = PackageDialog(
   Это плагин независимый от платформы, используется в этом приложении, 
   должен работать и у вас.
   ''',
-  version: '7.6.0',
+  version: '7.6.4',
   isPlatformDependent: false,
 );

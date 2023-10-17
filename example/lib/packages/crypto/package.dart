@@ -19,6 +19,6 @@ final packageCrypto = PackageDialog(
   Это плагин независимый от платформы, используется в этом приложении, 
   должен работать и у вас.
   ''',
-  version: '3.0.2',
+  version: '3.0.3',
   isPlatformDependent: false,
 );

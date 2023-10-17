@@ -21,6 +21,6 @@ final packageUniversalIO = PackageDialog(
   Это плагин независимый от платформы, используется в этом приложении, 
   должен работать и у вас.
   ''',
-  version: '2.2.0',
+  version: '2.2.2',
   isPlatformDependent: false,
 );

@@ -15,7 +15,7 @@ final packageFlutterLocalNotifications = PackagePage(
   descRU: '''
     Кроссплатформенный плагин для отображения локальных уведомлений.
     ''',
-  version: '14.1.1',
+  version: '15.1.1',
   isPlatformDependent: true,
   page: () => FlutterLocalNotificationsPage(),
   init: () {

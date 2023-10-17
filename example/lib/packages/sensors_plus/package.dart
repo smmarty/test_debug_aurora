@@ -17,7 +17,7 @@ final packageSensorsPlus = PackagePage(
     Плагин Flutter для доступа к датчикам акселерометра, 
     гироскопа, магнитометра и т.д.
     ''',
-  version: '3.0.2',
+  version: '3.1.0',
   isPlatformDependent: true,
   page: () => SensorsPlusPage(),
   init: () {

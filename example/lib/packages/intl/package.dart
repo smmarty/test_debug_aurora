@@ -23,6 +23,6 @@ final packageIntl = PackageDialog(
     Это плагин независимый от платформы, используется в этом приложении, 
     должен работать и у вас.
     ''',
-  version: '0.17.0',
+  version: '0.18.1',
   isPlatformDependent: false,
 );

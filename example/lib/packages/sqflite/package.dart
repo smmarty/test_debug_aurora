@@ -15,7 +15,7 @@ final packageSqflite = PackagePage(
   descRU: '''
     Плагин SQLite для Flutter. Поддерживает iOS, Android, MacOS и ОС Аврора.
     ''',
-  version: '2.2.6',
+  version: '2.3.0',
   isPlatformDependent: true,
   page: () => SqflitePage(),
   init: () {
