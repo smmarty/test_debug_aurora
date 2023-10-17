@@ -1,4 +1,24 @@
 {
+  "@_SENSORS_PLUS": {},
+  "sensorsPlusTitleOrientation": "Orientation",
+  "sensorsPlusTitleAccelerometer": "Accelerometer",
+  "sensorsPlusTitleCompass": "Compass",
+  "sensorsPlusTitleTap": "Tap",
+  "sensorsPlusTitleALS": "ALS",
+  "sensorsPlusTitleProximity": "Proximity",
+  "sensorsPlusTitleGyroscope": "Gyroscope",
+  "sensorsPlusTitleMagnetometer": "Magnetometer",
+  "sensorsPlusNotFound": "Sensor not found",
+  "sensorsPlusSubtitle": "Sensor key: {name}",
+  "@sensorsPlusSubtitle": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "orientationsensor"
+      }
+    }
+  },
+
   "@_PROVIDER": {},
   "providerTitle": "Provider",
   "providerSubtitle": "Simple example use provider package",
