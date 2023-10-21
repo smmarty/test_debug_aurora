@@ -21,6 +21,6 @@ final packageFlutterCacheManager = PackageDialog(
   Это плагин зависимый от платформы, используется в плагине 
   cached_network_image, должен работать и у вас.
   ''',
-  version: '3.3.0',
+  version: '3.3.1',
   isPlatformDependent: true,
 );

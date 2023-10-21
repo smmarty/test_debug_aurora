@@ -15,6 +15,7 @@ class BlockItem<T> extends AppStatelessWidget {
     this.future,
     this.stream,
     this.builder,
+    this.isShowProgress = true,
   });
 
   final String? title;
@@ -22,7 +23,8 @@ class BlockItem<T> extends AppStatelessWidget {
   final T? value;
   final Stream<T>? stream;
   final Future<T>? future;
-  final Function(T)? builder;
+  final Function(T?)? builder;
+  final bool isShowProgress;
 
   AsyncWidgetBuilder<T?> get widgetBuilder =>
       (BuildContext context, AsyncSnapshot<T?> snapshot) {
@@ -47,14 +49,14 @@ class BlockItem<T> extends AppStatelessWidget {
                 ],
               ),
             ),
-            if (snapshot.hasData)
+            if (!isShowProgress || snapshot.hasData)
               TextBodyMedium(
                 builder == null
                     ? snapshot.data.toString()
-                    : builder?.call(snapshot.data as T),
+                    : builder?.call(snapshot.data),
                 fontWeight: FontWeight.bold,
               ),
-            if (!snapshot.hasData)
+            if (isShowProgress && !snapshot.hasData)
               const SizedBox(
                 width: 16,
                 height: 16,

@@ -17,7 +17,7 @@ final packageFlutterMarkdown = PackagePage(
     Рендерер уценки для Flutter. Он поддерживает исходный формат, 
     но не поддерживает встроенный HTML.
     ''',
-  version: '0.6.15',
+  version: '0.6.17+4',
   isPlatformDependent: false,
   page: () => FlutterMarkdownPage(),
   init: () {

@@ -17,7 +17,7 @@ final packageCachedNetworkImage = PackagePage(
     Библиотека флаттера для отображения изображений из 
     Интернета и хранения их в каталоге кеша.
     ''',
-  version: '3.2.3',
+  version: '3.3.0',
   isPlatformDependent: true,
   page: () => CachedNetworkImagePage(),
   init: () {

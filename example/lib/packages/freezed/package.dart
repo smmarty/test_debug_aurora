@@ -16,7 +16,7 @@ final packageFreezed = PackagePage(
     Генератор кода для классов данных/объединений/сопоставления 
     с образцом/клонирования.
     ''',
-  version: '2.3.3',
+  version: '2.4.3',
   isPlatformDependent: false,
   page: () => FreezedPage(),
   init: () {

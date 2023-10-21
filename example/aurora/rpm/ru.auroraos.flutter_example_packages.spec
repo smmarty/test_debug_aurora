@@ -11,6 +11,7 @@ Source0: %{name}-%{version}.tar.zst
 BuildRequires: cmake
 BuildRequires: pkgconfig(sqlite3)
 BuildRequires: pkgconfig(flutter-embedder)
+BuildRequires: pkgconfig(sensord-qt5)
 
 %description
 %{summary}.

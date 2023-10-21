@@ -18,9 +18,21 @@ dependencies:
       ref: master
       path: packages/sqflite/sqflite_aurora
 ```
+***.desktop**
+
+```desktop
+Permissions=UserDirs
+```
+
+***.spec**
+
+```spec
+BuildRequires: pkgconfig(sqlite3)
+```
 
 ***.dart**
 
 ```dart
 import 'package:sqflite/sqflite.dart';
 ```
+

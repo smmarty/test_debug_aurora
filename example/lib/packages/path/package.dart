@@ -19,6 +19,6 @@ final packagePath = PackageDialog(
   Это плагин независимый от платформы, используется в этом приложении, 
   должен работать и у вас.
   ''',
-  version: '1.8.2',
+  version: '1.8.3',
   isPlatformDependent: false,
 );

@@ -19,6 +19,6 @@ final packageGoogleFonts = PackageDialog(
   Это плагин зависимый от платформы, используется в этом приложении, 
   должен работать и у вас.
   ''',
-  version: '4.0.4',
+  version: '6.1.0',
   isPlatformDependent: true,
 );

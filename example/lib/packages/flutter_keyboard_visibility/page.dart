@@ -99,7 +99,7 @@ class _FlutterKeyboardVisibilityPageState
                           title: l10n.flutterKeyboardVisibilityTitleHeight,
                           desc: l10n.flutterKeyboardVisibilityDescHeight,
                           value: _keyboardHeight,
-                          builder: (value) => value.toInt().toString(),
+                          builder: (value) => value?.toInt().toString(),
                         ),
                       ),
                       const SizedBox(height: 20),

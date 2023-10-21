@@ -21,6 +21,6 @@ final packageJsonAnnotation = PackageDialog(
     Это плагин независимый от платформы, используется в этом приложении в 
     демострации работы плагина freezed.
     ''',
-  version: '4.8.0',
+  version: '4.8.1',
   isPlatformDependent: false,
 );

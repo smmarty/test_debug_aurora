@@ -15,7 +15,7 @@ final packageFlutterSecureStorage = PackagePage(
   descRU: '''
     Flutter Secure Storage предоставляет API для хранения данных в безопасном хранилище.
     ''',
-  version: '8.0.0',
+  version: '9.0.0',
   isPlatformDependent: true,
   page: () => FlutterSecureStoragePage(),
   init: () {

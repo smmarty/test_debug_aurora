@@ -15,7 +15,7 @@ final packageDeviceInfoPlus = PackagePage(
   descRU: '''
     Получите текущую информацию об устройстве из приложения Flutter.
     ''',
-  version: '8.2.2',
+  version: '9.0.3',
   isPlatformDependent: true,
   page: () => DeviceInfoPlusPage(),
   init: () {

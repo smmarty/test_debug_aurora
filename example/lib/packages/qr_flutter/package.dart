@@ -17,7 +17,7 @@ final packageQrFlutter = PackagePage(
     ПQR.Flutter — это библиотека Flutter для простого и быстрого рендеринга 
     QR-кода с помощью виджета или пользовательского рисовальщика.
     ''',
-  version: '4.0.0',
+  version: '4.1.0',
   isPlatformDependent: false,
   page: () => QrFlutterPage(),
   init: () {

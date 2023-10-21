@@ -21,6 +21,6 @@ final packageCupertinoIcons = PackageDialog(
   Это плагин независимый от платформы, используется в этом приложении, 
   должен работать и у вас.
   ''',
-  version: '1.0.5',
+  version: '1.0.6',
   isPlatformDependent: false,
 );

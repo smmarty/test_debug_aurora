@@ -17,7 +17,7 @@ final packagePackageInfoPlus = PackagePage(
     Этот плагин Flutter предоставляет API для запроса информации о 
     пакете приложения.
     ''',
-  version: '3.1.2',
+  version: '4.1.0',
   isPlatformDependent: true,
   page: () => PackageInfoPlusPage(),
   init: () {

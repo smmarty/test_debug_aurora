@@ -19,7 +19,7 @@ final packagePathProvider = PackagePage(
      Поддерживает Android, iOS, Linux, macOS, Windows и ОС Aurora.
      Не все методы поддерживаются на всех платформах.
     ''',
-  version: '2.0.15',
+  version: '2.1.1',
   isPlatformDependent: true,
   page: () => PathProviderPage(),
   init: () {

@@ -29,9 +29,11 @@ import 'package:flutter_example_packages/packages/provider/package.dart';
 import 'package:flutter_example_packages/packages/qr_flutter/package.dart';
 import 'package:flutter_example_packages/packages/rxdart/package.dart';
 import 'package:flutter_example_packages/packages/scoped_model/package.dart';
+import 'package:flutter_example_packages/packages/sensors_plus/package.dart';
 import 'package:flutter_example_packages/packages/shared_preferences/package.dart';
 import 'package:flutter_example_packages/packages/sqflite/package.dart';
 import 'package:flutter_example_packages/packages/universal_io/package.dart';
+import 'package:flutter_example_packages/packages/wakelock_plus/package.dart';
 import 'package:flutter_example_packages/packages/xdga_directories/package.dart';
 
 /// List app packages
@@ -64,8 +66,10 @@ final packages = <Package>[
   packageQrFlutter,
   packageRxdart,
   packageScopedModel,
+  packageSensorsPlus,
   packageSharedPreferences,
   packageSqflite,
   packageUniversalIO,
+  packageWakelockPlus,
   packageXdgaDirectories,
 ];

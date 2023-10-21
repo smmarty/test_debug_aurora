@@ -17,7 +17,7 @@ final packageBatteryPlus = PackagePage(
     Плагин Flutter для доступа к различной информации о
     аккумулятор устройства, на котором запущено приложение.
     ''',
-  version: '4.0.1',
+  version: '4.0.2',
   isPlatformDependent: true,
   page: () => BatteryPlusPage(),
   init: () {

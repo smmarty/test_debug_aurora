@@ -19,6 +19,6 @@ final packageJsonSerializable = PackageDialog(
     Это плагин независимый от платформы, используется в этом приложении в 
     демострации работы плагина freezed.
     ''',
-  version: '6.6.1',
+  version: '6.7.1',
   isPlatformDependent: false,
 );

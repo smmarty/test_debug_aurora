@@ -1,4 +1,24 @@
 {
+  "@_SENSORS_PLUS": {},
+  "sensorsPlusTitleOrientation": "Ориентация",
+  "sensorsPlusTitleAccelerometer": "Акселерометр",
+  "sensorsPlusTitleCompass": "Компас",
+  "sensorsPlusTitleTap": "Датчик движения",
+  "sensorsPlusTitleALS": "ALS",
+  "sensorsPlusTitleProximity": "Датчик приближения",
+  "sensorsPlusTitleGyroscope": "Гироскоп",
+  "sensorsPlusTitleMagnetometer": "Магнитометр",
+  "sensorsPlusNotFound": "Датчик не найден",
+  "sensorsPlusSubtitle": "Ключ датчика: {name}",
+  "@sensorsPlusSubtitle": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "orientationsensor"
+      }
+    }
+  },
+
   "@_PROVIDER": {},
   "providerTitle": "Provider",
   "providerSubtitle": "Простой пример использования пакета provider",
@@ -161,7 +181,7 @@
   "sharedPreferencesFieldError": "Пожалуйста, введите {value} значение",
 
   "@_WAKELOCK": {},
-  "wakelockTitle": "Wakelock",
+  "wakelockTitle": "Блокировка",
   "wakelockDesc": "Плагин позволяет включать и переключать блокировку экрана, которая предотвращает автоматическое выключение экрана.",
 
   "@_XDGA_DIRECTORIES": {},
